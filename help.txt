@@ -1,0 +1,31 @@
+## Installation
+
+1. Clone the repository:
+
+2. Install dependencies:
+
+3. Configure the database:
+- Create a database and table using the provided schema.
+- Update `db/dbConnection.js` with your MySQL credentials.
+
+4. Start the application:
+
+---
+
+## Endpoints
+
+1. **GET /api/news**  
+- **Query Parameters**:
+  - `keyword` (optional): Filter by keyword.
+  - `startDate` (optional): Filter by start date.
+  - `endDate` (optional): Filter by end date.
+
+---
+
+## Technologies Used
+
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Libraries**: RSS-parser, Natural (for NLP), node-cron
+
+
